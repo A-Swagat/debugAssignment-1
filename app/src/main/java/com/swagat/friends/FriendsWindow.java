@@ -25,11 +25,13 @@ public class FriendsWindow extends AppCompatActivity {
 
         Intent i = getIntent();
         //receiving Intents
-        String name = i.getStringExtra("nameOfFriends");
+        String name = i.getStringExtra("name");
+        Log.d("name", name);
 
 
 
-        String photo = i.getStringExtra("pic");
+        String photo = i.getStringExtra("photo");
+        Log.d("photo",photo);
 
 
 
